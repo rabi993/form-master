@@ -22,9 +22,9 @@ const Refform = () => {
             <form onSubmit={handleSubmit}>
                 <input ref={nameRef} type="text" name="name" />
                 <br />
-                <input ref={emailRef} defaultValue="abc@gmail.com" type="email" name="email" id=""/>
+                <input ref={emailRef} defaultValue="abc@gmail.com" type="email" name="email" id="" required/>
                 <br />
-                <input ref={passwordRef} type="password" name="password" />
+                <input ref={passwordRef} type="password" name="password" required/>
                 <br />
                 {/* <button>Submit</button> */}
                 <input type="submit" value="Submit" />

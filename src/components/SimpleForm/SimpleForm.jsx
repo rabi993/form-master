@@ -12,9 +12,9 @@ const SimpleForm = () => {
             <form onSubmit={handleSubmit}>
                 <input type="text" name="name" />
                 <br />
-                <input type="email" name="email" id=""/>
+                <input type="email" name="email" id="" required/>
                 <br />
-                <input type="text" name="phone" />
+                <input type="password" name="password" required />
                 <br />
                 {/* <button>Submit</button> */}
                 <input type="submit" value="Submit" />
@@ -24,3 +24,7 @@ const SimpleForm = () => {
 };
 
 export default SimpleForm;
+
+
+
+
